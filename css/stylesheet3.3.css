@@ -1,0 +1,33 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -box-sizing: border-box;
+}
+
+ .header {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 500px;
+  color: #000000;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.intro {
+    width: 200px;
+    height: 200px,
+    padding: 60px;
+    margin: 50px;
+    text-align: left;
+    border-left: 4px solid #222;
+    border-right: 4px solid #222;
+    border-top: 4px solid #222;
+    border-bottom: 4px solid #222;
+  }

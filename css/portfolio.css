@@ -1,0 +1,194 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5;
+}
+
+
+.intro {
+    width: 200px;
+    height: 200px,
+    padding: 60px;
+    margin: 50px;
+    text-align: left;
+    border-left: 4px solid #222;
+    border-right: 4px solid #222;
+    border-top: 4px solid #222;
+    border-bottom: 4px solid #222;
+  }
+
+.imagecontainer {
+  width: 100%;
+  height: auto;
+}
+
+
+
+h2 {
+  font-weight: 300;
+  font-size: 27px;
+  margin: 0 0 10px 0;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+a {
+   text-decoration: none;
+   color: #000000;
+ }
+
+.main-header-container {
+  background: #fff;
+}
+
+.main-header {
+  width: 960px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.main-header .logo {
+  float:left;
+  padding-top: 45px;
+}
+
+.main-header nav {
+  float: right;
+  padding-top: 40px
+}
+
+.main-header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header li {
+  float: left;
+}
+
+.main-header nav a {
+  display: block;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: 300;
+  color: #222;
+  border-bottom: 1px solid transparent;
+}
+
+.main-header nav a:hover {
+  border-color: red;
+}
+
+.intro-container {
+  height: 500px;
+  background-size: cover;
+}
+
+
+
+.intro h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.intro h1 span {
+  display: block;
+  font-size: 25px;
+}
+
+.intro-content-container {
+  background: #flede4;
+}
+
+.intro-content {
+  width: 960px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.intro-content {
+}
+
+.intro-text,
+.intro-aside {
+  float: left;
+  padding: 0 20px;
+}
+
+.intro-text {
+  width: 66,66%;
+}
+
+.intro-text p {
+  margin-top: 0;
+}
+
+.intro-aside {
+  width: 33,33%;
+  border-left: 3px solid #222;
+  border-right: 3px solid #222;
+  border-top: 3px solid #222;
+  border-bottom: 3px solid #222;
+}
+
+.intro-aside h3,
+.intro-aside p {
+  margin: 0;
+}
+
+.columns-container {
+  background: #e3d8c6;
+}
+
+.columns {
+  width: 960px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.columns article {
+  float: left;
+  width: 33,33%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.columns article .button {
+  display: block;
+}
+
+/* Button */
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-tranform: uppercase;
+  border: 1px solid red;
+}
+
+.button:hover {
+  background: red;
+  color: #222;
+}
+
+ /* Clearfix */
+
+.clearfix:before,
+.clearfix:after {
+   content: " ";
+   display: table;
+ }
+
+.clearfix:after {
+  clear: both;
+}
